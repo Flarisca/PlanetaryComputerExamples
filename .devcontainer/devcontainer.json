@@ -40,5 +40,10 @@
 			"cudaVersion": "11.8",
 			"cudnnVersion": "8.6.0.163"
 		}
-	}
+	},
+	"name": "Planetary Computer (Dockerfile)",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "..",
+	},
 }
